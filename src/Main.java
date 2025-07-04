@@ -11,5 +11,10 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+        Car car = new Car("ford","Mustang",2025,true);
+        System.out.println(car.make);
+        System.out.println(car.model);
+        car.start();
     }
+
 }
