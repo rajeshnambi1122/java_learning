@@ -1,10 +1,10 @@
-package Leetcode;
+
 
 public class CanPlaceFlowers {
 
     public static void main(String[] args) {
-        int[] flowerbed = {1, 0, 0, 0, 1}; // You can change this!
-        int n = 2;                         // Number of flowers you want to plant
+        int[] flowerbed = {1, 0, 0, 0, 1};
+        int n = 2;
 
         boolean canPlant = canPlaceFlowers(flowerbed, n);
         System.out.println("Can plant " + n + " flowers? " + canPlant);
