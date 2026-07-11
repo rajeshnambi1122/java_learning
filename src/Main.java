@@ -6,6 +6,11 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello World!");
 
+        Friend friend1 = new Friend("Rajesh");
+        Friend friend2 = new Friend("Rajeshn");
+        Friend friend3 = new Friend("Rajeshn");
+        System.out.println(friend2.name);
+        System.out.println(friend1.numoffriends);
         for (int i = 1; i <= 10; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
